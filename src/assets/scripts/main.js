@@ -57,7 +57,6 @@ document.addEventListener('click', (e) => {
     case currentElement.classList.contains('fa-puzzle-piece'):
       idlenessSection.scrollIntoView({behavior: 'smooth'});
       break;
-  
   }
 });
 
