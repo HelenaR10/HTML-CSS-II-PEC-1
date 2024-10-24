@@ -95,7 +95,7 @@ main {
   opacity: 0.5;
 }
 
-.slider__button--activated {
+.is-activated {
   font-size: large;
   opacity: 1;
 }
@@ -171,8 +171,8 @@ main {
     width: 95%;
   }
   @media (max-width: $mqMaxMovile) {
-    width: 350;
-    height: 250;
+    width: 350px;
+    height: 250px;
   }
 }
 
@@ -212,7 +212,7 @@ main {
   }
 }
 
-.content-type__text--left {
+.is-left {
   left: 20%;
 }
 
