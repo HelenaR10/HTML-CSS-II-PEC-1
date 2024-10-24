@@ -35,9 +35,9 @@ document.addEventListener('click', (e) => {
   switch (true) {
     //Cambio dinámico de las imágenes del Slider
     case currentElement.classList.contains('slider__button'):
-      const activeButton = sliderButtons.querySelector('.is-activated');
-      activeButton.classList.remove('is-activated');
-      currentElement.classList.add('is-activated');
+      const activeButton = sliderButtons.querySelector('.slider__button--activated');
+      activeButton.classList.remove('slider__button--activated');
+      currentElement.classList.add('slider__button--activated');
       imgSlider.src = sliderImages[currentElement.dataset.src];
       break;
 
